@@ -1,0 +1,7 @@
+version: '3.1'
+
+services:
+  matlab-engine:
+    image:  mathworks/matlab
+    container_name: 'poc-analysis-matlab-engine'
+    restart: always
